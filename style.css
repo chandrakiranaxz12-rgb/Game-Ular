@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: #6999ae;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Open Sans',Sans-Serif;
+}
+
+#papan-skor {
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px;
+}
+
+#game {
+  border: 3px solid black;
+  background: #0ca834;
+}
+
+ .controls {
+      display: grid;
+      grid-template-columns: 60px 60px 60px;
+      grid-template-rows: 60px 60px 60px;
+      gap: 5px;
+      margin-top: 20px;
+    }
+
+ .btn {
+      background: #0f0;
+      color: #111;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      user-select: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+ .btn:active {
+      background: #0c0;
+    }
+
+    .empty {
+      background: none;
+      border: none;
+    }
